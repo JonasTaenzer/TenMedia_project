@@ -4,6 +4,10 @@
 
 Dieses Projekt ist eine Laravel-Webanwendung zur Verwaltung von Stellenanzeigen (Job-Portal).
 
+## Skizze
+
+![Skizze](Vorbereitungs-Skizze.drawio.png)
+
 ## Funktionen
 
 * Jobs erstellen, anzeigen und bearbeiten
