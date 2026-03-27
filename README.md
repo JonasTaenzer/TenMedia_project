@@ -45,6 +45,12 @@ php artisan serve
 Dann im Browser öffnen:
 http://127.0.0.1:8000
 
+## Hinweis
+
+* Für die Erstellung eines Jobs muss mindestens eine Company und eine Category existieren.
+Ein Testbenutzer wird benötigt, da Jobs einem User zugeordnet sind.
+* SQLite wird verwendet.
+
 ## Autor
 
 Jonas Tänzer
