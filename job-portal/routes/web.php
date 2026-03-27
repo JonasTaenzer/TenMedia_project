@@ -5,9 +5,7 @@ use App\Http\Controllers\JobController;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\CategoryController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::redirect('/', '/jobs');
 
 Route::resource('jobs', JobController::class);
 Route::resource('companies', CompanyController::class);
