@@ -7,13 +7,28 @@ use App\Models\User;
 
 class JobPolicy
 {
-    public function update(User $user, Job $job): bool
+    public function viewAny(?User $user): bool
     {
-        return $user->id === $job->user_id;
+        return true;
     }
 
-    public function delete(User $user, Job $job): bool
+    public function view(?User $user, Job $job): bool
     {
-        return $user->id === $job->user_id;
+        return true;
+    }
+
+    public function create(?User $user): bool
+    {
+        return true;
+    }
+
+    public function update(?User $user, Job $job): bool
+    {
+        return true;
+    }
+
+    public function delete(?User $user, Job $job): bool
+    {
+        return true;
     }
 }
