@@ -29,7 +29,7 @@ Dieses Projekt ist eine Laravel-Webanwendung zur Verwaltung von Stellenanzeigen 
 * Git
 
 ```bash
-git clone <REPO-URL>
+git clone https://github.com/JonasTaenzer/TenMedia_project
 cd job-portal
 composer install
 cp .env.example .env
